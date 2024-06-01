@@ -1,0 +1,94 @@
+Audio Tag:
+
+The <audio> tag is used to embed audio content into an HTML document.
+
+src: Specifies the URL of the audio file to be played.
+controls: Specifies whether the audio player controls (play, pause, volume, etc.) should be displayed.
+autoplay: Specifies that the audio should start playing automatically when the page loads.
+loop: Specifies that the audio should start over again when it reaches the end.
+preload: Specifies whether the audio file should be loaded when the page loads. Possible values are "none", "metadata", or "auto"
+
+
+Video Tag :
+
+The <video> tag is used to embed video content into an HTML document.
+
+src: Specifies the URL of the video file to be played.
+controls: Specifies whether the video player controls (play, pause, volume, etc.) should be displayed.
+autoplay: Specifies that the video should start playing automatically when the page loads.
+loop: Specifies that the video should start over again when it reaches the end.
+preload: Specifies whether the video file should be loaded when the page loads. Possible values are "none", "metadata", or "auto".
+muted: Specifies whether the video should be muted by default.
+poster: Specifies an image to be displayed while the video is downloading or until the user starts playback.
+width and height: Specifies the width and height of the video player, respectively.
+
+Iframe Tag : 
+an iframe is used to embed the webpage located at ("https://www.example.com") webpages like youtube, google maps ,etc with a width of 600 pixels and a height of 400 pixels. The title attribute provides a title for the iframe for accessibility purposes.
+
+Emoji Shortcut :   <!-- windows key + .(dot) -->
+
+<sup>: Stands for "superscript." It is used to render text in a smaller size and vertically aligned higher than the surrounding text. Commonly used for mathematical expressions, footnotes, or annotations.
+
+<sub>: Stands for "subscript." It is used to render text in a smaller size and vertically aligned lower than the surrounding text. Often used for chemical formulas, mathematical expressions, or footnotes.
+
+<b> : Stands for "bold." It is used to make the enclosed text bold, indicating that it is stylistically important without conveying any additional semantic meaning. However, it's considered a presentational element and is not typically used for semantic markup.
+
+<i>: Stands for "italic." It is used to make the enclosed text italicized, indicating a change in voice or mood, or to highlight a term or phrase. Like the <b> tag, it's a presentational element and doesn't convey specific semantic meaning.
+
+div Tag:
+
+Stands for "division" or "divider."
+It's a generic container used to group together and style content in HTML.
+<div> tags are commonly used to create sections or divisions within a webpage and are styled using CSS to control layout, appearance, and behavior.
+
+nav Tag:
+
+Stands for "navigation."
+It's used to define a section of a webpage that contains navigation links.
+<nav> tags are typically used to group together links that navigate the user to different sections of the website or to external pages.
+
+Footer:
+
+Represents the footer of a webpage or a section at the bottom of the page.
+It usually contains information about the website, such as copyright notices, contact information, links to privacy policies, or links to other important pages.
+<footer> tags are used to separate the main content of the webpage from additional information or supplementary links at the bottom of the page.
+
+Textarea Tag:
+
+The <textarea> tag is used to create a multi-line text input control within an HTML form.
+It allows users to enter multiple lines of text, such as comments, messages, or longer pieces of content.
+The content inside the <textarea> tag is displayed as the initial value of the text area, and users can modify it by typing directly into the control.
+
+Script Tag:
+
+The <script> tag is used to embed JavaScript code directly into an HTML document.
+It can be used to define and execute scripts that manipulate the document's content, handle events, interact with the user, or perform other tasks.
+JavaScript code inside the <script> tag can be either inline (written directly within the HTML document) or external (referencing an external JavaScript file).
+
+Main Tag:
+
+The <main> tag represents the main content of a webpage.
+It is used to encapsulate the primary content area of the document, excluding headers, footers, sidebars, and navigation links.
+The <main> tag helps assistive technologies and search engines identify the primary content of the page, improving accessibility and SEO.
+
+Section Tag:
+
+The <section> tag is used to define a section or grouping of content within an HTML document.
+It is typically used to group together related content, such as articles, blog posts, chapters, or thematic divisions.
+The <section> tag helps to organize and structure the content of a webpage, making it easier to understand and navigate for both users and search engines.
+
+
+In HTML, the ampersand character (&) is used to begin an entity reference, which is a code that represents a special character or symbol. Entity references are often used to display characters that have special meaning in HTML, such as reserved characters or characters that are difficult to type on a keyboard.
+
+Here are some commonly used entity references in HTML:
+
+&amp;: Represents the ampersand character itself (&). This is necessary to avoid confusion with the start of an entity reference.
+&lt;: Represents the less-than symbol (<).
+&gt;: Represents the greater-than symbol (>).
+&quot;: Represents the double quotation mark (").
+&apos;: Represents the apostrophe or single quotation mark ('). Note that some HTML specifications may not support this entity reference, so using the actual character (') is often preferred.
+&nbsp;: Represents a non-breaking space. It is used to create space between words or elements that should not be broken across lines.
+&copy; represents the copyright symbol (©).
+
+
+
