@@ -1,0 +1,73 @@
+/* tag name use */
+
+/* #heads{
+    color: red;
+    background-color: rebeccapurple;
+}
+
+
+#heads{
+    color: green;
+    background-color: blue;
+}  */
+/* same style properties - override */
+
+/* class name */
+
+/* .heading{
+    color: red;
+} */
+/*  id name */
+
+/* #heads{
+    color: yellow;
+} */
+
+
+
+/*   */
+
+/* ( * => universal selector ) */
+
+.head1{
+    /* color: red ; */
+    background-color: yellowgreen;
+    /* 1 value - 4 side (T,R,B,L) - margin apply */
+    /* margin: 50px ;  */
+    /* 2 value (1st value - T, B) (2nd R, L) */
+    /* margin: 50px 200px; */
+    /* 4 value (clockwise direction starts from t -> T , R , B , L) */
+    /* margin: 50px 100px 150px 200px; */
+    margin: 50px;
+    border: 3px solid red ;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.head2{
+    color: red ;
+    background-color: yellowgreen;
+    padding: 50px 100px 150px 200px;
+}
+
+.para{
+    background-color: yellow;
+    /* margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px; */
+    margin: 50px;
+    padding: 50px;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    /* color: red; */
+}
+.spanCss{
+    color: red;
+}
+
