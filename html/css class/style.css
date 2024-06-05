@@ -47,11 +47,27 @@
 .head2{
     color: red ;
     background-color: yellowgreen;
-    padding: 50px 100px 150px 200px;
+    padding: 50px;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    /* text-decoration: line-through; */
+    text-transform:capitalize ;
+    /* letter-spacing: 10px; */
+    word-spacing: 100px;
+}
+
+.head2:hover{
+    background-color: aquamarine;
+    font-size: 25px;
+    padding: 25px;
+    border: 2px solid blue;
 }
 
 .para{
     background-color: yellow;
+    padding: 20px;
+    font-size: 35px;
     /* margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
@@ -60,14 +76,86 @@
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 50px; */
-    margin: 50px;
+    /* margin: 50px;
     padding: 50px;
     font-size: 35px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 700;
+    font-weight: 700; */
     /* color: red; */
+
 }
-.spanCss{
+/* .para:first-letter{
     color: red;
+    font-size: 50px;
+} */
+
+.para::first-line{
+    color: red;
+    font-size: 50px;
 }
+
+.link{
+    text-decoration: none;
+    color: orange;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: black;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.link:visited{
+    color: darkgreen;
+}
+
+.link:link{
+    color: blue;
+}
+
+.link:hover{
+    color: black;
+    background-color: rgb(101, 104, 98);
+    cursor: grab;
+}
+
+/*  index 4 html */
+
+.h2,.p2,.div{
+    height: 150px;
+    width: 30%;
+    background-color: #324B96;
+    display: inline-block;
+}
+
+/* span - inline */
+.span{
+    background-color: blueviolet;
+    height: 100px;
+    width: 100%;
+    display: block;
+}
+
+.image{
+    /* background-color: red; */
+    height: 250px;
+    width: 250px;
+    /* object-fit: contain;  */
+    border: 5px solid rgb(12, 231, 74);
+    border-radius: 50%;
+}
+
+.image2{
+    height: 250px;
+    width: 250px;
+}
+
+input{
+    display: inline;
+    height: 50px;
+    width: 25%;
+}
+
+
+
 
