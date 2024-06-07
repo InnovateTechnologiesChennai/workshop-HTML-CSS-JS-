@@ -163,10 +163,10 @@ input{
     padding: 0;
 }
 
-body{
+/* body{
     background-color: black;
     color: white;
-}
+} */
 
 .text-container{
     display: flex;
@@ -234,6 +234,114 @@ body{
     transform: scale(0.9);
     transition: 0.5s;
 }
+
+/*  display - grid - layout */
+
+.grid-container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr  1fr 1fr 1fr ;
+    grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr ;
+    grid-template-areas: 
+    "nav nav nav nav nav"
+    "side cat cat cat cat"
+    "side slide slide slide slide"
+    "side c1 c2 c2 c3"
+    "side foot foot foot foot"
+    ;
+}
+
+.nav{
+    background-color: red;
+    grid-area:nav ;
+}
+
+.category{
+    background-color: yellow;
+    grid-area: cat;
+    display: flex;
+}
+
+.slider{
+    background-color: magenta;
+    grid-area: slide;
+}
+
+.sidebar{
+    background-color: orange;
+    grid-area: side;
+}
+
+.card1{
+    background-color: aqua;
+    grid-area: c1;
+}
+
+.card2{
+    background-color: teal;
+    grid-area: c2;
+}
+
+.card3{
+    background-color: goldenrod;
+    grid-area: c3;
+}
+
+.footer{
+    background-color: #324B96;
+    grid-area: foot;
+}
+
+/*  [ position-css ] */
+
+.container{
+    background-color: black;
+    margin: 50px;
+    height: 400px;
+    width: 50%;
+    position: relative;
+}
+
+.c1{
+    background-color: rgb(236, 18, 18);
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+
+}
+
+.c2{
+    background-color: teal;
+    height: 100px;
+    width: 100px;
+}
+
+.c3{
+    background-color: goldenrod;
+    height: 100px;
+    width: 100px;
+    z-index:0;
+}
+
+/* .h1-position{
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+} */
+
+.h1-position{
+    position: sticky;
+    top: 100px;
+}
+
+
+
+
+
+
+
 
 
 
