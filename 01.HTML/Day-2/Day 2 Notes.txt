@@ -1,6 +1,7 @@
 Image Tag : 
 
-In HTML, the <img> tag is used to embed images into a web page. Here's how you typically use it:
+In HTML, the <img> tag is used to embed images into a web page.
+Here's how you typically use it:
 
 <img src="image_url.jpg" alt="description_of_image" width="width_in_pixels" height="height_in_pixels">
 
@@ -18,9 +19,13 @@ Button: Defines a clickable button, often used to submit form data.
 
 Line Break Tags :
 
-br: Stands for "line break." It inserts a single line break within the text, causing subsequent content to appear on the next line. It's often used to create additional space between elements or to break lines of text without starting a new paragraph.
+br: Stands for "line break." It inserts a single line break within the text, 
+causing subsequent content to appear on the next line. 
+It's often used to create additional space between elements or to break lines of text without starting a new paragraph.
 
-hr: Stands for "horizontal rule." It inserts a horizontal line or rule across the webpage, typically used to separate content into sections or to mark a thematic break between different parts of the page. It's a self-closing tag and doesn't require a closing tag.
+hr: Stands for "horizontal rule." 
+It inserts a horizontal line or rule across the webpage, typically used to separate content into sections or to mark a thematic break between different parts of the page. 
+It's a self-closing tag and doesn't require a closing tag.
 
 Table Tags:
 
@@ -32,11 +37,18 @@ Table Tags:
 <tbody>: Defines the body section of a table. Contains the main content of the table, including <tr> and <td> elements.
 <tfoot>: Defines the footer section of a table. Typically contains summary information or totals, using <tr> and <td> elements.
 
-Rowspan: This attribute defines the number of rows a cell should span vertically. It allows a cell to occupy multiple rows in a table. When applied, the cell merges with the specified number of rows below it.
+Rowspan: This attribute defines the number of rows a cell should span vertically. It allows a cell to occupy multiple rows in a table.
+When applied, the cell merges with the specified number of rows below it.
 
-For example, if a cell has rowspan="2", it spans across two rows, effectively occupying the space of two cells vertically. The content of the cell is displayed in the first row, and the remaining space in the second row is left empty.
+For example, if a cell has rowspan="2", 
+it spans across two rows, effectively occupying the space of two cells vertically. 
+The content of the cell is displayed in the first row, and the remaining space in the second row is left empty.
 
-Colspan: This attribute defines the number of columns a cell should span horizontally. It allows a cell to occupy multiple columns in a table. When applied, the cell merges with the specified number of columns to its right.
+Colspan: This attribute defines the number of columns a cell should span horizontally. 
+It allows a cell to occupy multiple columns in a table.
+When applied, the cell merges with the specified number of columns to its right.
 
-For instance, if a cell has colspan="3", it spans across three columns, effectively occupying the space of three cells horizontally. The content of the cell is displayed in the first column, and the remaining space in the second and third columns is left empty.
+For instance, if a cell has colspan="3",
+ it spans across three columns, effectively occupying the space of three cells horizontally. 
+The content of the cell is displayed in the first column, and the remaining space in the second and third columns is left empty.
 

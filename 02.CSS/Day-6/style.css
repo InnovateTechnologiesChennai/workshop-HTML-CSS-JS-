@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    /* row => j.c (y-axis) a.t(x-axis) => (width) - default-100% */
+    align-items: center ;
+    justify-content: center;
+    height: 70vh;
+}
+
+.info{
+    text-align: center;
+    font-size: 35px;
+    padding: 15px;
+}
+
+.detail{
+    margin: 15px 0;
+    font-size: 22px;
+    text-align: center;
+    padding: 15px;
+}
+
+.name{
+    color: rgba(59, 239, 68, 0.738);
+}
+
+.hire-btn{
+    background-color: rgba(59, 239, 68, 0.738);
+    color: white;
+    padding: 10px 0;
+    width: 220px;
+    font-size: 18px;
+    border: none;
+}
+
+.hire-btn:hover{
+    cursor: grab;
+}
+
+.image-container{
+    display: flex;
+    /* default direction :row  */
+    /* flex-direction: column-reverse; */
+    /* row => j.c (x-axis) a.t(y-axis) -(height) */
+    flex-wrap: wrap;
+    justify-content:center ;
+    /* width: 50%; */
+    /* default 100% width - x-axis - alignment*/
+    align-items:center;
+    /* align-item - y-axis - allignment => height  */
+    height: 100vh; 
+    /* px % (vh- viewport height )*/
+}
+
+.image{
+    padding: 10px;
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.image:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 0.5s;
+}

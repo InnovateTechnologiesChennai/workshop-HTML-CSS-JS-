@@ -1,0 +1,41 @@
+.container{
+    background-color: black;
+    margin: 50px;
+    height: 400px;
+    width: 50%;
+    position: relative;
+}
+
+.c1{
+    background-color: rgb(236, 18, 18);
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+
+}
+
+.c2{
+    background-color: teal;
+    height: 100px;
+    width: 100px;
+}
+
+.c3{
+    background-color: goldenrod;
+    height: 100px;
+    width: 100px;
+    z-index:0;
+}
+
+/* .h1-position{
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+} */
+
+.h1-position{
+    position: sticky;
+    top: 100px;
+}

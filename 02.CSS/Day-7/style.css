@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.grid-container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr  1fr 1fr 1fr ;
+    grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr ;
+    grid-template-areas: 
+    "nav nav nav nav nav"
+    "side cat cat cat cat"
+    "side slide slide slide slide"
+    "side c1 c2 c2 c3"
+    "side foot foot foot foot"
+    ;
+}
+
+.nav{
+    background-color: red;
+    grid-area:nav ;
+}
+
+.category{
+    background-color: yellow;
+    grid-area: cat;
+    display: flex;
+}
+
+.slider{
+    background-color: magenta;
+    grid-area: slide;
+}
+
+.sidebar{
+    background-color: orange;
+    grid-area: side;
+}
+
+.card1{
+    background-color: aqua;
+    grid-area: c1;
+}
+
+.card2{
+    background-color: teal;
+    grid-area: c2;
+}
+
+.card3{
+    background-color: goldenrod;
+    grid-area: c3;
+}
+
+.footer{
+    background-color: #324B96;
+    grid-area: foot;
+}

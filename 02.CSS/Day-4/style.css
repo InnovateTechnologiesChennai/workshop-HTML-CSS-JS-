@@ -1,0 +1,29 @@
+/* tag name use */
+
+h1{
+    color: red;
+}
+
+#heads{
+    color: red;
+    background-color: rebeccapurple;
+}
+
+#heads{
+    color: green;
+    background-color: blue;
+} 
+
+/* same style properties - override */
+
+/* class name */
+
+.heading{
+    color: red;
+}
+
+/*  id name */
+
+#heads{
+    color: yellow;
+}
