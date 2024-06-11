@@ -56,3 +56,31 @@
     background-color: #324B96;
     grid-area: foot;
 }
+
+
+/* icon style */
+.icon{
+    display: none;
+}
+
+@media screen and (max-width:825px) {
+    .grid-container{
+        display: grid;
+        height: 100vh;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 0.143fr 0.143fr 0.143fr 0.143fr 0.143fr 0.143fr 0.143fr;
+        grid-template-areas: 
+        "nav nav"
+        "cat cat"
+        "side side"
+        "slide slide"
+        "c1 c2"
+        "c3 c3"
+        "foot foot"
+        ;
+    }
+    .fa-brands{
+        color: rgb(51, 255, 0);
+        font-size: 35px;
+    }
+}

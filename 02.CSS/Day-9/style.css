@@ -1,0 +1,78 @@
+/* 601-899 default */
+.head{
+    color: red;
+    background-color: black;
+    height: 200px;
+    width: 50%;
+    text-align: center;
+}
+
+.p2{
+    display: none;
+    /* visibility: hidden; */
+}
+
+
+/*   */
+@media screen and (max-width:600px) {
+    .head{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        background-color: blue;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .btnn{
+        display: none;
+    }
+}
+
+@media screen and (min-width:900px) {
+    .head{
+        width: 75%;
+        font-size: 60px;
+        background-color: rgb(238, 255, 0);
+        color: rgb(252, 1, 1);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+
+/*  */
+
+/* .container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+} */
+
+.container{
+    background-color: red;
+    position: relative;
+    height: 50vh;
+}
+
+.box{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.box:hover{
+    cursor: pointer;
+    background-color: red;
+    /* border-radius: 50%; */
+    transition: 2s;
+    /* transform: scale(0.5); */
+    /* transform: translate(100px,100px); */
+    /* transform: rotate(90deg); */
+    /* transform: skewY(-50deg); */
+    /* transform: scale(1.1) translate(100px,-100px) rotate(90deg) skew(30deg) ; */
+}
