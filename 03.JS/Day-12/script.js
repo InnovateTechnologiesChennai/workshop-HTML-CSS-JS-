@@ -75,13 +75,4 @@ console.log(details.place.address.country);
   console.log(key + ":" + details[key]);
  }
 
-// datatypes - primitive - Str,num, boole,undef,null
-// non - primi => obj , (fun ,arr)
-// variables - let var const 
-// conditional - if else , switch
-// operators - arithmetic , assign , comp , logi , ternaryOperator
-// increment -(pre,post) , decrement - (pre,post)
-// looping- for while doWhile for in (for of)
-// date 
-//Math
-// ob maj = {K:v,K:v} // .dot notation []bracket notation
+
